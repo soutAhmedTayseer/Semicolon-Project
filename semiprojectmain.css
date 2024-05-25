@@ -1,0 +1,183 @@
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #040D12;
+    margin: 0;
+}
+
+/*nav bar*/
+
+.bar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    gap: 50%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#logo {
+    width: 10%;
+    height: 150px;
+    transform: translateY(-30px);
+    margin-left: 2%;
+}
+
+.navoptians {
+    display: flex;
+}
+
+/*end navbar*/
+
+/*attributes*/
+a {
+    color: white;
+    font-size: 15px;
+    margin-left: 65%;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 70px;
+    max-width: 100%;
+    font-family: 'Roboto Condensed',  sans-serif;
+    color: white;
+
+}
+
+p {
+    text-align: center;
+    font-size: 50px;
+
+}
+/*end attributes*/
+
+
+.home {
+    background-image: url(../images/background.jpg);
+    background-size: 2000px;
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+   
+}
+
+#transparent {
+    display: flex;
+    font-size: 40px;
+    text-align: left;
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    color: white;
+    top: 0;
+    background-color: rgba(0, 0, 0, 60%);
+    z-index: 0;
+}
+
+#mainDivImg {
+    margin-top: 200px;
+    margin-left: 250px;
+}
+
+#mainImg {
+    width: 100%;
+    height: 800px;
+}
+
+.mainDiv {
+    margin-left: 2%;
+    margin-top: 400px
+}
+
+#tracks {
+    transform: translateY(1000px);
+}
+
+.tracks {   
+     display: flex;
+    margin-top: 1100px;
+    margin-left: 20px;
+    gap: 20px;
+}
+
+.react {
+
+    border: white 2px solid;
+    border-radius: 20px;
+    width: 350px;
+    height: 600px;
+    background-image: url(../images/re.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.python {
+    border: white 2px solid;
+    border-radius: 20px;
+    width: 350px;
+    height: 600px;
+    background-image: url(../images/py.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.machine {
+    border: white 2px solid;
+    border-radius: 20px;
+    width: 350px;
+    height: 600px;
+    background-image: url(../images/ma.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.game {
+    border: white 2px solid;
+    border-radius: 20px;
+    width: 350px;
+    height: 600px;
+    background-image: url(../images/ga.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.testing {
+    border: white 2px solid;
+    border-radius: 20px;
+    width: 350px;
+    height: 600px;
+    background-image: url(../images/te.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+video {
+    width: 100%;
+}
+
+
+footer {
+    color: white;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}

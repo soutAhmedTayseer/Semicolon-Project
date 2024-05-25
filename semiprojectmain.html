@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&family=Roboto+Condensed:wght@700&family=Slabo+27px&family=Source+Serif+4:opsz,wght@8..60,300&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="semiprojectmain.css" />
+    <title>semiproject main</title>
+  </head>
+
+  <body>
+    <!--nav bar-->
+    <nav class="bar">
+      <img id="logo" src="../images/preview.png" />
+      <div class="navoptians">
+        <!--display flex for h1 inside href-->
+        <a href="#home">
+          <h1>Home</h1>
+        </a>
+        <a href="#tracks">
+          <h1>Tracks</h1>
+        </a>
+        <a href="#about">
+          <h1>About</h1>
+        </a>
+      </div>
+    </nav>
+    <!--end nav bar-->
+
+    <!--home bar-->
+    <div class="home" id="home"></div>
+    <div id="transparent">
+      <!--create 3 div 2 of them display flex-->
+      <div class="mainDiv">
+        <h1 style="font-family: 'Roboto Condensed', sans-serif">
+          Semicolon Project
+        </h1>
+        <h3 style="font-family: 'Slabo 27px', serif; padding-right: 100px">
+          Coding isn't about "HELLO WORLD", it's about innovation .
+        </h3>
+      </div>
+      <div id="mainDivImg">
+        <img id="mainImg" src="../images/mainDev.png" />
+      </div>
+    </div>
+    <!--end home-->
+
+    <!--Tracks-->
+    <h2 id="tracks">You Can Choose One Of These Tracks</h2>
+    <!--1 div and 5 div display flex-->
+    <div class="tracks">
+      <div class="react"></div>
+      <div class="machine"></div>
+      <div class="python"></div>
+      <div class="game"></div>
+      <div class="testing"></div>
+    </div>
+    <!--end Tracks-->
+
+    <!--about us-->
+    <h2 id="about">About us</h2>
+    <div class="bot">
+      <video loop muted autoplay>
+        <source src="../images/vid.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <br />
+    <!--end about us-->
+
+    <!--footer-->
+    <footer>
+      <h3>© All rights reserved credits to semicolon project</h3>
+    </footer>
+    <!--end footer-->
+  </body>
+</html>
